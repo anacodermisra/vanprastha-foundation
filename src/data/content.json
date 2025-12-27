@@ -1,0 +1,67 @@
+{
+  "hero": {
+    "title": "Vanprastha Foundation",
+    "subtitle": "Village Awareness towards Nature, Protection of Resources, Afforestation, Sustainability, Tradition, Harmony & Action",
+    "description": "Dedicated to the holistic and sustainable development of rural regions, guided by values rooted in tradition, ecological responsibility, and inclusive progress."
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Vanprastha Foundation is a non-profit organization dedicated to the holistic and sustainable development of rural regions. Our name, VANPRASTHA, reflects our mission: Village Awareness towards Nature, Protection of Resources, Afforestation, Sustainability, Tradition, Harmony & Action.",
+    "objectives": [
+      {
+        "title": "Environmental Sustainability",
+        "description": "We promote the efficient management of natural resources, support afforestation and ecological restoration, and foster region-specific sustainable development through renewable energy, organic farming, and biodiversity conservation."
+      },
+      {
+        "title": "Cultural & Social Empowerment",
+        "description": "We support indigenous artisans, preserve traditional arts, and foster inclusive, peaceful communities by addressing inequality, promoting unity, and celebrating cultural identity."
+      },
+      {
+        "title": "Health & Well-being",
+        "description": "We work to enhance rural health by providing access to quality healthcare, sanitation, maternal and child welfare, nutritional awareness, and preventive medical practices."
+      },
+      {
+        "title": "Education & Skill Development",
+        "description": "We ensure inclusive education and lifelong learning through improved access to schools, adult literacy programs, and vocational training—empowering individuals and boosting employability."
+      }
+    ]
+  },
+  "initiatives": {
+    "previous": [
+      {
+        "id": "project-punarjeevan",
+        "title": "Project Punarjeevan",
+        "description": "Reviving hills around Kukuchhina and Dunagiri by planting thousands of native trees to combat wildfire damage.",
+        "fullContent": "During the harsh summer, vast stretches of forest around Kukuchhina and Dunagiri were ravaged by wildfires, resulting in the loss of hectares of precious green cover. As the monsoon approaches, Vanprastha Foundation is committed to reviving these hills by planting thousands of native, endemic trees — bringing life and resilience back to our forests. This initiative involves the local community in planting native species that are fire-resistant and support local biodiversity.",
+        "images": [
+          "/assets/project-punarjeevan.jpg",
+          "/assets/punarjeevan-planting.jpg"
+        ]
+      },
+      {
+        "id": "empowering-children",
+        "title": "Empowering Village Children",
+        "description": "Holistic growth and quality education for local village children, including 'Masti Ki Pathshala'.",
+        "fullContent": "Our dedicated member and former Aeronautical Engineer at DRDO, Mr. Krishan Lal Khatter, conducted a special 'Masti Ki Pathshala' for local village children. Through engaging teaching and heartfelt motivation, he inspired them to pursue their studies with enthusiasm. The children also received essential school supplies, making the special Sunday class both joyful and meaningful. This program aims to bridge the gap in educational quality in rural areas.",
+        "images": [
+          "/assets/education-initiative.jpg"
+        ]
+      },
+      {
+        "id": "medical-camp",
+        "title": "Medical Camp for Villagers",
+        "date": "2025-07-06",
+        "description": "Free Medical Camp providing health check-ups, consultations, and medicines in remote areas.",
+        "fullContent": "A Free Medical & Dental Camp was organized on July 8th from 9 AM to 12 Noon by Vanprastha Foundation in collaboration with Bal Umang Drishya Sanstha (BUDS). The camp featured esteemed doctors including Dr. Rajeev Seth (Medical Director, Child Health & Development Centre), Dr. Professor Tulika Seth (AIIMS), and Dr. Aalok Tiwari (Dental Surgeon). Villagers received free check-ups, consultations, and medicines, addressing critical health needs in the region.",
+        "images": [
+          "/assets/medical-camp-flyer.jpg"
+        ]
+      }
+    ],
+    "upcoming": []
+  },
+  "contact": {
+    "address": "AD-13 Tagore Garden, New Delhi-110027",
+    "email": "foundationvanprastha@gmail.com"
+  }
+}
