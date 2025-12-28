@@ -74,7 +74,14 @@ const transformInitiatives = (rows) => {
             description: row.description,
             fullContent: row.fullContent,
             date: row.date,
-            images: row.images ? row.images.split(',').map(img => img.trim()) : []
+            images: row.images ? row.images.split(',').map(img => {
+                let cleanPath = img.trim();
+                // Fix common user error: /src/assets/ -> /assets/
+                if (cleanPath.startsWith('/src/assets/')) {
+                    cleanPath = cleanPath.replace('/src/assets/', '/assets/');
+                }
+                return cleanPath;
+            }) : []
         };
 
         if (row.type === 'upcoming') {

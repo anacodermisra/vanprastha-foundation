@@ -35,7 +35,7 @@
         "fullContent": "During the harsh summer, vast stretches of forest around Kukuchhina and Dunagiri were ravaged by wildfires, resulting in the loss of hectares of precious green cover. As the monsoon approaches, Vanprastha Foundation is committed to reviving these hills by planting thousands of native, endemic trees — bringing life and resilience back to our forests. This initiative involves the local community in planting native species that are fire-resistant and support local biodiversity.",
         "images": [
           "/assets/project-punarjeevan.jpg",
-          "/assets/punarjeevan-planting.jpg"
+          "/assets/punarjeevan-plantation.jpg"
         ]
       },
       {
@@ -45,6 +45,16 @@
         "fullContent": "Our dedicated member and former Aeronautical Engineer at DRDO, Mr. Krishan Lal Khatter, conducted a special 'Masti Ki Pathshala' for local village children. Through engaging teaching and heartfelt motivation, he inspired them to pursue their studies with enthusiasm. The children also received essential school supplies, making the special Sunday class both joyful and meaningful. This program aims to bridge the gap in educational quality in rural areas.",
         "images": [
           "/assets/education-initiative.jpg"
+        ]
+      },
+      {
+        "id": "cleanliness-drive",
+        "title": "Cleanliness Drive",
+        "description": "Community-led cleanliness drive to promote hygiene and sanitation in the village.",
+        "fullContent": "A massive cleanliness drive was organized by the Vanprastha Foundation, bringing together villagers, volunteers, and local leaders. The initiative focused on cleaning public spaces, schools, and water sources, creating a widespread awareness about the importance of hygiene and sanitation. The participation of women and youth was particularly encouraging, marking a significant step towards a 'Swachh' village.",
+        "images": [
+          "/assets/cleanliness1.jpg",
+          "/assets/cleanliness2.jpg"
         ]
       },
       {
