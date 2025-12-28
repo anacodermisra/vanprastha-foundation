@@ -43,7 +43,7 @@ const Footer = () => {
                         <div className="space-y-4 text-gray-400">
                             <div className="flex items-start">
                                 <MapPin className="w-5 h-5 mr-3 mt-1 text-accent flex-shrink-0" />
-                                <p>AD-13 Tagore Garden,<br />New Delhi-110027</p>
+                                <p>Khet - 267, 269 ,275, Khata no. 16, Ratkhal, Dunagiri, Almora,<br />Ranikhet, Uttarakhand-263653</p>
                             </div>
                             <div className="flex items-center">
                                 <Mail className="w-5 h-5 mr-3 text-accent flex-shrink-0" />

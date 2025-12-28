@@ -59,8 +59,8 @@ const PrivacyPolicy = () => {
                         </p>
                         <address className="not-italic">
                             <strong>Vanprastha Foundation</strong><br />
-                            AD-13 Tagore Garden,<br />
-                            New Delhi-110027<br />
+                            Khet - 267, 269 ,275, Khata no. 16, Ratkhal, Dunagiri, Almora,<br />
+                            Ranikhet, Uttarakhand-263653<br />
                             Email: <a href="mailto:foundationvanprastha@gmail.com" className="text-accent hover:underline">foundationvanprastha@gmail.com</a>
                         </address>
                     </section>
