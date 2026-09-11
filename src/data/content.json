@@ -1,270 +1,497 @@
 {
-  "hero": {
-    "title": "Vanprastha Foundation",
-    "subtitle": "Village Awareness towards Nature, Protection of Resources, Afforestation, Sustainability, Tradition, Harmony & Action",
-    "description": "Dedicated to the holistic and sustainable development of rural regions, guided by values rooted in tradition, ecological responsibility, and inclusive progress."
+  "en": {
+    "hero": {
+      "title": "Vanprastha Foundation",
+      "subtitle": "Village Awareness towards Nature, Protection of Resources, Afforestation, Sustainability, Tradition, Harmony & Action",
+      "description": "Dedicated to the holistic and sustainable development of rural regions, guided by values rooted in tradition, ecological responsibility, and inclusive progress."
+    },
+    "about": {
+      "title": "About Us",
+      "description": "Vanprastha Foundation is a non-profit organization dedicated to the holistic and sustainable development of rural regions. Our name, VANPRASTHA, reflects our mission: Village Awareness towards Nature, Protection of Resources, Afforestation, Sustainability, Tradition, Harmony & Action.",
+      "objectives": [
+        {
+          "title": "Environmental Sustainability",
+          "description": "We promote the efficient management of natural resources, support afforestation and ecological restoration, and foster region-specific sustainable development through renewable energy, organic farming, and biodiversity conservation."
+        },
+        {
+          "title": "Cultural & Social Empowerment",
+          "description": "We support indigenous artisans, preserve traditional arts, and foster inclusive, peaceful communities by addressing inequality, promoting unity, and celebrating cultural identity."
+        },
+        {
+          "title": "Health & Well-being",
+          "description": "We work to enhance rural health by providing access to quality healthcare, sanitation, maternal and child welfare, nutritional awareness, and preventive medical practices."
+        },
+        {
+          "title": "Education & Skill Development",
+          "description": "We ensure inclusive education and lifelong learning through improved access to schools, adult literacy programs, and vocational training—empowering individuals and boosting employability."
+        }
+      ]
+    },
+    "initiatives": {
+      "previous": [
+        {
+          "id": "project-punarjeevan",
+          "title": "Project Punarjeevan",
+          "description": "Reviving hills around Kukuchhina and Dunagiri by planting thousands of native trees to combat wildfire damage.",
+          "fullContent": "Project Punarjeevan is our flagship initiative to restore the ecological balance of the Uttarakhand hills...",
+          "date": "2024-07-06",
+          "articleContent": [
+            {
+              "type": "heading",
+              "content": "The Scars of Summer Wildfires"
+            },
+            {
+              "type": "paragraph",
+              "content": "In recent years, the pristine hills of Kukuchhina and Dunagiri have faced the wrath of devastating summer wildfires. These fires have not only reduced hectares of lush green forest to ash but have also disrupted the delicate local ecosystem, displacing wildlife and affecting the water retention of the soil. The loss is personal to us—it is a wound on the land we call home."
+            },
+            {
+              "type": "image",
+              "src": "/assets/Punarjeevan banner.png",
+              "caption": "Project Punarjeevan: A collective vow to restore the Himalayas."
+            },
+            {
+              "type": "heading",
+              "content": "A Vow to Restore: Why We Plant"
+            },
+            {
+              "type": "paragraph",
+              "content": "Project Punarjeevan (Rebirth) was born from the collective will of the Vanprastha Foundation and the local villagers to heal these scars. We understood that simply planting trees wasn't enough; we needed to restore the *native* biodiversity. Guided by ecological experts, we selected indigenous species that are resilient to future climate challenges and beneficial for local fauna."
+            },
+            {
+              "type": "paragraph",
+              "content": "With the arrival of the monsoons, our teams mobilized. Armed with saplings and hope, volunteers and villagers climbed the rugged terrain to plant thousands of trees. Each sapling represents a promise—a promise of clean air, held soil, and a returning canopy for future generations."
+            },
+            {
+              "type": "image",
+              "src": "/assets/punarjeevan-planting.jpg",
+              "caption": "Community members coming together to replant the forest."
+            }
+          ],
+          "images": [
+            "/assets/punarjeevan1.jpg",
+            "/assets/Punarjeevan banner.png",
+            "/assets/punarjeevan-planting.jpg"
+          ]
+        },
+        {
+          "id": "empowering-children",
+          "title": "Empowering Village Children",
+          "description": "Holistic growth and quality education for local village children, including 'Masti Ki Pathshala'.",
+          "fullContent": "Education is the cornerstone of progress. Our 'Masti Ki Pathshala' program...",
+          "date": "2024-05-12",
+          "articleContent": [
+            {
+              "type": "heading",
+              "content": "Beyond the Blackboard: Masti Ki Pathshala"
+            },
+            {
+              "type": "paragraph",
+              "content": "Education in rural areas often suffers from a lack of resources and engaging methodologies. To bridge this gap, Vanprastha Foundation launched 'Masti Ki Pathshala' (Fun School), a unique initiative led by our dedicated member and former DRDO Aeronautical Engineer, Mr. Krishan Lal Khatter."
+            },
+            {
+              "type": "image",
+              "src": "/assets/klkhatterclass1.jpg",
+              "caption": "Mr. Khatter engaging students in an interactive learning session."
+            },
+            {
+              "type": "image",
+              "src": "/assets/klkhatterclass2.jpg",
+              "caption": "Students learning through curiosity-driven discussions."
+            },
+            {
+              "type": "paragraph",
+              "content": "The goal was simple yet profound: to bring back the joy of learning. Moving away from rote memorization, the sessions focused on curiosity-driven discussions, practical science examples, and career guidance. Mr. Khatter shared anecdotes from his time as a scientist, igniting a spark of ambition in young eyes that rarely dare to dream big."
+            },
+            {
+              "type": "heading",
+              "content": "Tools for Success"
+            },
+            {
+              "type": "paragraph",
+              "content": "Inspiration needs support to flourish. Alongside mentorship, we distributed essential school supplies—notebooks, stationery, and backpacks—to ensuring that a lack of material resources never stands in the way of a child's education. The smiles on their faces were our greatest reward, confirming that we are on the right path."
+            }
+          ],
+          "images": [
+            "/assets/klkhatterclass1.jpg",
+            "/assets/klkhatterclass2.jpg"
+          ]
+        },
+        {
+          "id": "cleanliness-drive",
+          "title": "Cleanliness Drive",
+          "description": "Community-led cleanliness drive to promote hygiene and sanitation in the village.",
+          "fullContent": "A clean village is a healthy village. Our cleanliness drive mobilized the community...",
+          "date": "2024-08-15",
+          "articleContent": [
+            {
+              "type": "heading",
+              "content": "Swachh Gaon, Swasth Gaon"
+            },
+            {
+              "type": "paragraph",
+              "content": "Hygiene and sanitation are often overlooked critical components of rural development. On Independence Day, Vanprastha Foundation organized a massive 'Cleanliness Drive', transforming the slogan of 'Swachh Bharat' into tangible action on the ground."
+            },
+            {
+              "type": "image",
+              "src": "/assets/cleanliness_1.jpg",
+              "caption": "Volunteers and villagers united for a cleaner environment."
+            },
+            {
+              "type": "paragraph",
+              "content": "The drive wasn't just about sweeping streets; it was about changing mindsets. We focused on cleaning communal water sources, school compounds, and village pathways. By removing plastic waste and debris, we not only improved the aesthetic appeal of the village but also reduced health risks associated with stagnant water and pollution."
+            },
+            {
+              "type": "heading",
+              "content": "The Power of Community"
+            },
+            {
+              "type": "paragraph",
+              "content": "What made this event truly special was the overwhelming participation of women and youth. Their leadership in this drive signaled a shift in social responsibility. Seeing neighbors work shoulder-to-shoulder fostered a sense of unity and pride in their shared living spaces."
+            },
+            {
+              "type": "image",
+              "src": "/assets/cleanliness_2.jpg",
+              "caption": "Women leading the way in community transformation."
+            }
+          ],
+          "images": [
+            "/assets/cleanliness_1.jpg",
+            "/assets/cleanliness_2.jpg"
+          ]
+        },
+        {
+          "id": "medical-camp",
+          "title": "Medical Camp for Villagers",
+          "description": "Free Medical Camp providing health check-ups, consultations, and medicines in remote areas.",
+          "fullContent": "Healthcare access in remote hills is a challenge. Our medical camp brought experts to the doorstep...",
+          "date": "2025-07-06",
+          "articleContent": [
+            {
+              "type": "heading",
+              "content": "Bridging the Healthcare Gap"
+            },
+            {
+              "type": "paragraph",
+              "content": "For the residents of Ratkhal and surrounding villages, specialized healthcare is often a distant luxury, requiring long journeys to the nearest city. Recognizing this acute need, Vanprastha Foundation collaborated with Bal Umang Drishya Sanstha (BUDS) to organize a comprehensive Free Medical & Dental Camp."
+            },
+            {
+              "type": "image",
+              "src": "/assets/medical_camp_5.jpg",
+              "caption": "Our Medical Camp providing essential care."
+            },
+            {
+              "type": "heading",
+              "content": "Expert Care at the Doorstep"
+            },
+            {
+              "type": "paragraph",
+              "content": "We were honored to host distinguished medical professionals including Dr. Rajeev Seth, Medical Director of the Child Health & Development Centre, Dr. Professor Tulika Seth from AIIMS, and Dr. Aalok Tiwari, a skilled Dental Surgeon. Their presence meant that villagers received top-tier consultation that would otherwise be inaccessible."
+            },
+            {
+              "type": "collage",
+              "images": [
+                "/assets/medical_camp_1.jpg",
+                "/assets/medical_camp_2.jpg",
+                "/assets/medical_camp_3.jpg",
+                "/assets/medical_camp_4.jpg"
+              ],
+              "caption": "Glimpses from our Medical Camp."
+            },
+            {
+              "type": "paragraph",
+              "content": "Over the course of the day, hundreds of patients were screened for common ailments, dental issues, and chronic conditions. Free medicines were distributed, and critical cases were identified for follow-up. This camp was a testament to our commitment to holistic rural well-being—because a healthy community is a thriving community."
+            }
+          ],
+          "images": [
+            "/assets/medical_camp_5.jpg",
+            "/assets/medical_camp_1.jpg",
+            "/assets/medical_camp_2.jpg",
+            "/assets/medical_camp_3.jpg",
+            "/assets/medical_camp_4.jpg"
+          ]
+        },
+        {
+          "id": "menstrual-hygiene-camp",
+          "title": "Menstrual Hygiene Awareness Camp",
+          "description": "Educating rural women on menstrual health, distributing pads, and breaking taboos.",
+          "fullContent": "A specialized camp dedicated to menstrual hygiene education and empowerment...",
+          "date": "2025-08-20",
+          "articleContent": [
+            {
+              "type": "heading",
+              "content": "Breaking Taboos, Building Health"
+            },
+            {
+              "type": "paragraph",
+              "content": "In many rural communities, menstruation remains a topic shrouded in silence and stigma. To address this critical aspect of women's health, Vanprastha Foundation organized a Menstrual Hygiene Awareness Camp in Ratkhal village. The goal was to educate women about good menstrual practices, bust age-old myths, and break the taboos that prevent open conversations about reproductive health."
+            },
+            {
+              "type": "image",
+              "src": "/assets/menstrual_hygiene_1.jpg",
+              "caption": "Women gathering for the menstrual hygiene awareness session."
+            },
+            {
+              "type": "heading",
+              "content": "Education and Empowerment"
+            },
+            {
+              "type": "paragraph",
+              "content": "Director Mrs. Sunaina Misra personally interacted with the rural women, creating a safe and welcoming environment for them to share their experiences and ask questions. The session provided valuable information on hygiene management and the importance of using sanitary products to prevent infections. As part of the initiative, Mrs. Misra also distributed high-quality sanitary pads to all attendees."
+            },
+            {
+              "type": "collage",
+              "images": [
+                "/assets/menstrual_hygiene_2.jpg",
+                "/assets/menstrual_hygiene_3.png",
+                "/assets/menstrual_hygiene_4.jpg",
+                "/assets/menstrual_hygiene_5.jpg"
+              ],
+              "caption": "Distributing sanitary pads and educating the community."
+            },
+            {
+              "type": "paragraph",
+              "content": "The camp was not just about health; it was about celebrating womanhood. The event concluded beautifully with a celebration of local culture, featuring traditional Kumaoni dance and music, leaving the women feeling empowered, informed, and uplifted."
+            }
+          ],
+          "images": [
+            "/assets/menstrual_hygiene_1.jpg",
+            "/assets/menstrual_hygiene_2.jpg",
+            "/assets/menstrual_hygiene_3.png",
+            "/assets/menstrual_hygiene_4.jpg",
+            "/assets/menstrual_hygiene_5.jpg"
+          ]
+        }
+      ],
+      "upcoming": []
+    },
+    "contact": {
+      "address": "Khet - 267, 269 ,275, Khata no. 16, Ratkhal, Dunagiri, Almora, Ranikhet, Uttarakhand-263653",
+      "email": "foundationvanprastha@gmail.com"
+    }
   },
-  "about": {
-    "title": "About Us",
-    "description": "Vanprastha Foundation is a non-profit organization dedicated to the holistic and sustainable development of rural regions. Our name, VANPRASTHA, reflects our mission: Village Awareness towards Nature, Protection of Resources, Afforestation, Sustainability, Tradition, Harmony & Action.",
-    "objectives": [
-      {
-        "title": "Environmental Sustainability",
-        "description": "We promote the efficient management of natural resources, support afforestation and ecological restoration, and foster region-specific sustainable development through renewable energy, organic farming, and biodiversity conservation."
-      },
-      {
-        "title": "Cultural & Social Empowerment",
-        "description": "We support indigenous artisans, preserve traditional arts, and foster inclusive, peaceful communities by addressing inequality, promoting unity, and celebrating cultural identity."
-      },
-      {
-        "title": "Health & Well-being",
-        "description": "We work to enhance rural health by providing access to quality healthcare, sanitation, maternal and child welfare, nutritional awareness, and preventive medical practices."
-      },
-      {
-        "title": "Education & Skill Development",
-        "description": "We ensure inclusive education and lifelong learning through improved access to schools, adult literacy programs, and vocational training—empowering individuals and boosting employability."
-      }
-    ]
-  },
-  "initiatives": {
-    "previous": [
-      {
-        "id": "project-punarjeevan",
-        "title": "Project Punarjeevan",
-        "description": "Reviving hills around Kukuchhina and Dunagiri by planting thousands of native trees to combat wildfire damage.",
-        "fullContent": "Project Punarjeevan is our flagship initiative to restore the ecological balance of the Uttarakhand hills...",
-        "date": "2024-07-06",
-        "articleContent": [
-          {
-            "type": "heading",
-            "content": "The Scars of Summer Wildfires"
-          },
-          {
-            "type": "paragraph",
-            "content": "In recent years, the pristine hills of Kukuchhina and Dunagiri have faced the wrath of devastating summer wildfires. These fires have not only reduced hectares of lush green forest to ash but have also disrupted the delicate local ecosystem, displacing wildlife and affecting the water retention of the soil. The loss is personal to us—it is a wound on the land we call home."
-          },
-          {
-            "type": "image",
-            "src": "/assets/Punarjeevan banner.png",
-            "caption": "Project Punarjeevan: A collective vow to restore the Himalayas."
-          },
-          {
-            "type": "heading",
-            "content": "A Vow to Restore: Why We Plant"
-          },
-          {
-            "type": "paragraph",
-            "content": "Project Punarjeevan (Rebirth) was born from the collective will of the Vanprastha Foundation and the local villagers to heal these scars. We understood that simply planting trees wasn't enough; we needed to restore the *native* biodiversity. Guided by ecological experts, we selected indigenous species that are resilient to future climate challenges and beneficial for local fauna."
-          },
-          {
-            "type": "paragraph",
-            "content": "With the arrival of the monsoons, our teams mobilized. Armed with saplings and hope, volunteers and villagers climbed the rugged terrain to plant thousands of trees. Each sapling represents a promise—a promise of clean air, held soil, and a returning canopy for future generations."
-          },
-          {
-            "type": "image",
-            "src": "/assets/punarjeevan-planting.jpg",
-            "caption": "Community members coming together to replant the forest."
-          }
-        ],
-        "images": [
-          "/assets/punarjeevan1.jpg",
-          "/assets/Punarjeevan banner.png",
-          "/assets/punarjeevan-planting.jpg"
-        ]
-      },
-      {
-        "id": "empowering-children",
-        "title": "Empowering Village Children",
-        "description": "Holistic growth and quality education for local village children, including 'Masti Ki Pathshala'.",
-        "fullContent": "Education is the cornerstone of progress. Our 'Masti Ki Pathshala' program...",
-        "date": "2024-05-12",
-        "articleContent": [
-          {
-            "type": "heading",
-            "content": "Beyond the Blackboard: Masti Ki Pathshala"
-          },
-          {
-            "type": "paragraph",
-            "content": "Education in rural areas often suffers from a lack of resources and engaging methodologies. To bridge this gap, Vanprastha Foundation launched 'Masti Ki Pathshala' (Fun School), a unique initiative led by our dedicated member and former DRDO Aeronautical Engineer, Mr. Krishan Lal Khatter."
-          },
-          {
-            "type": "image",
-            "src": "/assets/klkhatterclass1.jpg",
-            "caption": "Mr. Khatter engaging students in an interactive learning session."
-          },
-          {
-            "type": "image",
-            "src": "/assets/klkhatterclass2.jpg",
-            "caption": "Students learning through curiosity-driven discussions."
-          },
-          {
-            "type": "paragraph",
-            "content": "The goal was simple yet profound: to bring back the joy of learning. Moving away from rote memorization, the sessions focused on curiosity-driven discussions, practical science examples, and career guidance. Mr. Khatter shared anecdotes from his time as a scientist, igniting a spark of ambition in young eyes that rarely dare to dream big."
-          },
-          {
-            "type": "heading",
-            "content": "Tools for Success"
-          },
-          {
-            "type": "paragraph",
-            "content": "Inspiration needs support to flourish. Alongside mentorship, we distributed essential school supplies—notebooks, stationery, and backpacks—to ensuring that a lack of material resources never stands in the way of a child's education. The smiles on their faces were our greatest reward, confirming that we are on the right path."
-          }
-        ],
-        "images": [
-          "/assets/klkhatterclass1.jpg",
-          "/assets/klkhatterclass2.jpg"
-        ]
-      },
-      {
-        "id": "cleanliness-drive",
-        "title": "Cleanliness Drive",
-        "description": "Community-led cleanliness drive to promote hygiene and sanitation in the village.",
-        "fullContent": "A clean village is a healthy village. Our cleanliness drive mobilized the community...",
-        "date": "2024-08-15",
-        "articleContent": [
-          {
-            "type": "heading",
-            "content": "Swachh Gaon, Swasth Gaon"
-          },
-          {
-            "type": "paragraph",
-            "content": "Hygiene and sanitation are often overlooked critical components of rural development. On Independence Day, Vanprastha Foundation organized a massive 'Cleanliness Drive', transforming the slogan of 'Swachh Bharat' into tangible action on the ground."
-          },
-          {
-            "type": "image",
-            "src": "/assets/cleanliness_1.jpg",
-            "caption": "Volunteers and villagers united for a cleaner environment."
-          },
-          {
-            "type": "paragraph",
-            "content": "The drive wasn't just about sweeping streets; it was about changing mindsets. We focused on cleaning communal water sources, school compounds, and village pathways. By removing plastic waste and debris, we not only improved the aesthetic appeal of the village but also reduced health risks associated with stagnant water and pollution."
-          },
-          {
-            "type": "heading",
-            "content": "The Power of Community"
-          },
-          {
-            "type": "paragraph",
-            "content": "What made this event truly special was the overwhelming participation of women and youth. Their leadership in this drive signaled a shift in social responsibility. Seeing neighbors work shoulder-to-shoulder fostered a sense of unity and pride in their shared living spaces."
-          },
-          {
-            "type": "image",
-            "src": "/assets/cleanliness_2.jpg",
-            "caption": "Women leading the way in community transformation."
-          }
-        ],
-        "images": [
-          "/assets/cleanliness_1.jpg",
-          "/assets/cleanliness_2.jpg"
-        ]
-      },
-      {
-        "id": "medical-camp",
-        "title": "Medical Camp for Villagers",
-        "description": "Free Medical Camp providing health check-ups, consultations, and medicines in remote areas.",
-        "fullContent": "Healthcare access in remote hills is a challenge. Our medical camp brought experts to the doorstep...",
-        "date": "2025-07-06",
-        "articleContent": [
-          {
-            "type": "heading",
-            "content": "Bridging the Healthcare Gap"
-          },
-          {
-            "type": "paragraph",
-            "content": "For the residents of Ratkhal and surrounding villages, specialized healthcare is often a distant luxury, requiring long journeys to the nearest city. Recognizing this acute need, Vanprastha Foundation collaborated with Bal Umang Drishya Sanstha (BUDS) to organize a comprehensive Free Medical & Dental Camp."
-          },
-          {
-            "type": "image",
-            "src": "/assets/medical_camp_5.jpg",
-            "caption": "Our Medical Camp providing essential care."
-          },
-          {
-            "type": "heading",
-            "content": "Expert Care at the Doorstep"
-          },
-          {
-            "type": "paragraph",
-            "content": "We were honored to host distinguished medical professionals including Dr. Rajeev Seth, Medical Director of the Child Health & Development Centre, Dr. Professor Tulika Seth from AIIMS, and Dr. Aalok Tiwari, a skilled Dental Surgeon. Their presence meant that villagers received top-tier consultation that would otherwise be inaccessible."
-          },
-          {
-            "type": "collage",
-            "images": [
-              "/assets/medical_camp_1.jpg",
-              "/assets/medical_camp_2.jpg",
-              "/assets/medical_camp_3.jpg",
-              "/assets/medical_camp_4.jpg"
-            ],
-            "caption": "Glimpses from our Medical Camp."
-          },
-          {
-            "type": "paragraph",
-            "content": "Over the course of the day, hundreds of patients were screened for common ailments, dental issues, and chronic conditions. Free medicines were distributed, and critical cases were identified for follow-up. This camp was a testament to our commitment to holistic rural well-being—because a healthy community is a thriving community."
-          }
-        ],
-        "images": [
-          "/assets/medical_camp_5.jpg",
-          "/assets/medical_camp_1.jpg",
-          "/assets/medical_camp_2.jpg",
-          "/assets/medical_camp_3.jpg",
-          "/assets/medical_camp_4.jpg"
-        ]
-      },
-      {
-        "id": "menstrual-hygiene-camp",
-        "title": "Menstrual Hygiene Awareness Camp",
-        "description": "Educating rural women on menstrual health, distributing pads, and breaking taboos.",
-        "fullContent": "A specialized camp dedicated to menstrual hygiene education and empowerment...",
-        "date": "2025-08-20",
-        "articleContent": [
-          {
-            "type": "heading",
-            "content": "Breaking Taboos, Building Health"
-          },
-          {
-            "type": "paragraph",
-            "content": "In many rural communities, menstruation remains a topic shrouded in silence and stigma. To address this critical aspect of women's health, Vanprastha Foundation organized a Menstrual Hygiene Awareness Camp in Ratkhal village. The goal was to educate women about good menstrual practices, bust age-old myths, and break the taboos that prevent open conversations about reproductive health."
-          },
-          {
-            "type": "image",
-            "src": "/assets/menstrual_hygiene_1.jpg",
-            "caption": "Women gathering for the menstrual hygiene awareness session."
-          },
-          {
-            "type": "heading",
-            "content": "Education and Empowerment"
-          },
-          {
-            "type": "paragraph",
-            "content": "Director Mrs. Sunaina Misra personally interacted with the rural women, creating a safe and welcoming environment for them to share their experiences and ask questions. The session provided valuable information on hygiene management and the importance of using sanitary products to prevent infections. As part of the initiative, Mrs. Misra also distributed high-quality sanitary pads to all attendees."
-          },
-          {
-            "type": "collage",
-            "images": [
-              "/assets/menstrual_hygiene_2.jpg",
-              "/assets/menstrual_hygiene_3.png",
-              "/assets/menstrual_hygiene_4.jpg",
-              "/assets/menstrual_hygiene_5.jpg"
-            ],
-            "caption": "Distributing sanitary pads and educating the community."
-          },
-          {
-            "type": "paragraph",
-            "content": "The camp was not just about health; it was about celebrating womanhood. The event concluded beautifully with a celebration of local culture, featuring traditional Kumaoni dance and music, leaving the women feeling empowered, informed, and uplifted."
-          }
-        ],
-        "images": [
-          "/assets/menstrual_hygiene_1.jpg",
-          "/assets/menstrual_hygiene_2.jpg",
-          "/assets/menstrual_hygiene_3.png",
-          "/assets/menstrual_hygiene_4.jpg",
-          "/assets/menstrual_hygiene_5.jpg"
-        ]
-      }
-    ],
-    "upcoming": []
-  },
-  "contact": {
-    "address": "Khet - 267, 269 ,275, Khata no. 16, Ratkhal, Dunagiri, Almora, Ranikhet, Uttarakhand-263653",
-    "email": "foundationvanprastha@gmail.com"
+  "hi": {
+    "hero": {
+      "title": "वनप्रस्थ फाउंडेशन",
+      "subtitle": "प्रकृति के प्रति ग्राम जागरूकता, संसाधनों का संरक्षण, वनीकरण, स्थिरता, परंपरा, सद्भाव और कार्रवाई",
+      "description": "ग्रामीण क्षेत्रों के समग्र और सतत विकास के लिए समर्पित, परंपराओं, पारिस्थितिक जिम्मेदारी और समावेशी प्रगति के मूल्यों द्वारा निर्देशित।"
+    },
+    "about": {
+      "title": "हमारे बारे में",
+      "description": "वनप्रस्थ फाउंडेशन ग्रामीण क्षेत्रों के समग्र और सतत विकास के लिए समर्पित एक गैर-लाभकारी संस्था है। हमारा नाम, वनप्रस्थ, हमारे मिशन को दर्शाता है: प्रकृति के प्रति ग्राम जागरूकता, संसाधनों का संरक्षण, वनीकरण, स्थिरता, परंपरा, सद्भाव और कार्रवाई।",
+      "objectives": [
+        {
+          "title": "पर्यावरण स्थिरता",
+          "description": "हम प्राकृतिक संसाधनों के कुशल प्रबंधन को बढ़ावा देते हैं, वनीकरण और पारिस्थितिक बहाली का समर्थन करते हैं, और नवीकरणीय ऊर्जा, जैविक खेती और जैव विविधता संरक्षण के माध्यम से क्षेत्र-विशिष्ट सतत विकास को बढ़ावा देते हैं।"
+        },
+        {
+          "title": "सांस्कृतिक और सामाजिक सशक्तिकरण",
+          "description": "हम स्वदेशी कारीगरों का समर्थन करते हैं, पारंपरिक कलाओं को संरक्षित करते हैं, और असमानता को दूर करके, एकता को बढ़ावा देकर और सांस्कृतिक पहचान का जश्न मनाकर समावेशी, शांतिपूर्ण समुदायों को बढ़ावा देते हैं।"
+        },
+        {
+          "title": "स्वास्थ्य और कल्याण",
+          "description": "हम गुणवत्तापूर्ण स्वास्थ्य सेवा, स्वच्छता, मातृ एवं शिशु कल्याण, पोषण संबंधी जागरूकता और निवारक चिकित्सा प्रथाओं तक पहुंच प्रदान करके ग्रामीण स्वास्थ्य को बढ़ाने के लिए काम करते हैं।"
+        },
+        {
+          "title": "शिक्षा और कौशल विकास",
+          "description": "हम स्कूलों तक बेहतर पहुंच, वयस्क साक्षरता कार्यक्रमों और व्यावसायिक प्रशिक्षण के माध्यम से समावेशी शिक्षा और आजीवन सीखने को सुनिश्चित करते हैं—व्यक्तियों को सशक्त बनाते हैं और रोजगार क्षमता बढ़ाते हैं।"
+        }
+      ]
+    },
+    "initiatives": {
+      "previous": [
+        {
+          "id": "project-punarjeevan",
+          "title": "प्रोजेक्ट पुनर्जीवन",
+          "description": "कुमाऊं में कुकुचाइना के आसपास की पहाड़ियों को 10,000+ देशी ओक और देवदार के पौधे लगाकर पुनर्जीवित करना।",
+          "fullContent": "प्रोजेक्ट पुनर्जीवन हमारा प्रमुख वनीकरण अभियान है, जिसका उद्देश्य हिमालय के जंगलों के खोए हुए गौरव को बहाल करना है...",
+          "date": "2024-07-20",
+          "articleContent": [
+            {
+              "type": "heading",
+              "content": "ग्रीष्मकालीन जंगल की आग के निशान"
+            },
+            {
+              "type": "paragraph",
+              "content": "हाल के वर्षों में, उत्तराखंड के प्राचीन हिमालयी जंगल विनाशकारी आग के शिकार हुए हैं। कुकुचाइना और आस-पास के क्षेत्रों की पहाड़ियाँ, जो कभी हरे-भरे बांज और देवदार से आच्छादित थीं, बंजर परिदृश्य में बदल गईं। इस पर्यावरणीय संकट ने न केवल वनस्पतियों और जीवों को नष्ट कर दिया, बल्कि स्थानीय जल स्रोतों को भी सुखा दिया और पारंपरिक ग्रामीण आजीविका को बाधित कर दिया।"
+            },
+            {
+              "type": "image",
+              "src": "/assets/project_punarjeevan_1.jpg",
+              "caption": "प्रोजेक्ट पुनर्जीवन: वनीकरण के लिए एक सामूहिक प्रयास।"
+            },
+            {
+              "type": "heading",
+              "content": "पुनर्स्थापित करने की शपथ: हम पेड़ क्यों लगाते हैं"
+            },
+            {
+              "type": "paragraph",
+              "content": "प्रोजेक्ट पुनर्जीवन (पुनर्जन्म) इस तबाही की हमारी सीधी प्रतिक्रिया थी। वनप्रस्थ फाउंडेशन ने स्थानीय पारिस्थितिकी को बहाल करने के लिए बड़े पैमाने पर वृक्षारोपण अभियान शुरू करने के लिए स्थानीय वन विभाग के साथ सहयोग किया। मानसून के आगमन के साथ, स्वयंसेवकों की हमारी टीम और सैकड़ों ग्रामीणों ने एक ही लक्ष्य के साथ पहाड़ों की यात्रा की: प्रकृति को वापस देना।"
+            },
+            {
+              "type": "image",
+              "src": "/assets/project_punarjeevan_2.jpg",
+              "caption": "समुदाय के सदस्य जंगल को फिर से लगाने के लिए एक साथ आते हुए।"
+            }
+          ],
+          "images": [
+            "/assets/project_punarjeevan_1.jpg",
+            "/assets/project_punarjeevan_2.jpg",
+            "/assets/project_punarjeevan_3.jpg"
+          ]
+        },
+        {
+          "id": "village-children",
+          "title": "ग्रामीण बच्चों का सशक्तिकरण",
+          "description": "स्थानीय गांव के बच्चों के लिए समग्र विकास और गुणवत्तापूर्ण शिक्षा, जिसमें मस्ती की पाठशाला शामिल है।",
+          "fullContent": "शिक्षा प्रगति की आधारशिला है। हमारा मस्ती की पाठशाला कार्यक्रम...",
+          "date": "2024-11-14",
+          "articleContent": [
+            {
+              "type": "heading",
+              "content": "ब्लैकबोर्ड से परे: मस्ती की पाठशाला"
+            },
+            {
+              "type": "paragraph",
+              "content": "ग्रामीण क्षेत्रों में शिक्षा अक्सर संसाधनों की कमी और सीमित जोखिम से ग्रस्त होती है। वनप्रस्थ फाउंडेशन ने मस्ती की पाठशाला शुरू की - एक इंटरैक्टिव शैक्षिक पहल जिसका उद्देश्य सीखने को मजेदार, व्यावहारिक और प्रेरक बनाना है।"
+            },
+            {
+              "type": "image",
+              "src": "/assets/klkhatterclass1.jpg",
+              "caption": "श्री खट्टर छात्रों को एक इंटरैक्टिव शिक्षण सत्र में शामिल करते हुए।"
+            },
+            {
+              "type": "heading",
+              "content": "सफलता के लिए उपकरण"
+            },
+            {
+              "type": "paragraph",
+              "content": "प्रेरणा को फलने-फूलने के लिए समर्थन की आवश्यकता होती है। मेंटरशिप के साथ-साथ, हमने आवश्यक स्कूल की आपूर्ति - नोटबुक, स्टेशनरी और बैकपैक - वितरित की ताकि यह सुनिश्चित हो सके कि भौतिक संसाधनों की कमी कभी भी किसी बच्चे की शिक्षा के रास्ते में न आए। उनके चेहरों पर मुस्कान हमारा सबसे बड़ा इनाम थी, यह पुष्टि करते हुए कि हम सही रास्ते पर हैं।"
+            }
+          ],
+          "images": [
+            "/assets/klkhatterclass1.jpg",
+            "/assets/klkhatterclass2.jpg"
+          ]
+        },
+        {
+          "id": "cleanliness-drive",
+          "title": "स्वच्छता अभियान",
+          "description": "गांव में स्वच्छता और सफाई को बढ़ावा देने के लिए समुदाय-नेतृत्व वाला स्वच्छता अभियान।",
+          "fullContent": "एक स्वच्छ गांव एक स्वस्थ गांव है। हमारे स्वच्छता अभियान ने समुदाय को लामबंद किया...",
+          "date": "2024-08-15",
+          "articleContent": [
+            {
+              "type": "heading",
+              "content": "स्वच्छ गांव, स्वस्थ गांव"
+            },
+            {
+              "type": "paragraph",
+              "content": "स्वच्छता और सफाई अक्सर ग्रामीण विकास के अनदेखे महत्वपूर्ण घटक होते हैं। स्वतंत्रता दिवस पर, वनप्रस्थ फाउंडेशन ने एक बड़े पैमाने पर स्वच्छता अभियान का आयोजन किया, जिसने स्वच्छ भारत के नारे को जमीन पर मूर्त कार्रवाई में बदल दिया।"
+            },
+            {
+              "type": "image",
+              "src": "/assets/cleanliness_1.jpg",
+              "caption": "स्वयंसेवक और ग्रामीण एक स्वच्छ पर्यावरण के लिए एकजुट हुए।"
+            },
+            {
+              "type": "heading",
+              "content": "समुदाय की शक्ति"
+            },
+            {
+              "type": "paragraph",
+              "content": "इस कार्यक्रम को वास्तव में विशेष बनाने वाली बात महिलाओं और युवाओं की भारी भागीदारी थी। इस अभियान में उनके नेतृत्व ने सामाजिक जिम्मेदारी में बदलाव का संकेत दिया। पड़ोसियों को कंधे से कंधा मिलाकर काम करते हुए देखने से एकता और उनके साझा रहने के स्थानों में गर्व की भावना को बढ़ावा मिला।"
+            },
+            {
+              "type": "image",
+              "src": "/assets/cleanliness_2.jpg",
+              "caption": "सामुदायिक परिवर्तन में अग्रणी महिलाएं।"
+            }
+          ],
+          "images": [
+            "/assets/cleanliness_1.jpg",
+            "/assets/cleanliness_2.jpg"
+          ]
+        },
+        {
+          "id": "medical-camp",
+          "title": "ग्रामीणों के लिए चिकित्सा शिविर",
+          "description": "दूरस्थ क्षेत्रों में स्वास्थ्य जांच, परामर्श और दवाएं प्रदान करने वाला निःशुल्क चिकित्सा शिविर।",
+          "fullContent": "दूरदराज की पहाड़ियों में स्वास्थ्य देखभाल तक पहुंच एक चुनौती है। हमारा चिकित्सा शिविर विशेषज्ञों को दरवाजे तक लाया...",
+          "date": "2025-07-06",
+          "articleContent": [
+            {
+              "type": "heading",
+              "content": "स्वास्थ्य देखभाल की खाई को पाटना"
+            },
+            {
+              "type": "paragraph",
+              "content": "रत्खल और आसपास के गांवों के निवासियों के लिए, विशेष स्वास्थ्य सेवा अक्सर एक दूर की विलासिता है, जिसके लिए निकटतम शहर की लंबी यात्रा की आवश्यकता होती है। इस तीव्र आवश्यकता को पहचानते हुए, वनप्रस्थ फाउंडेशन ने एक व्यापक निःशुल्क चिकित्सा और दंत चिकित्सा शिविर आयोजित करने के लिए बाल उमंग दृश्य संस्था (BUDS) के साथ सहयोग किया।"
+            },
+            {
+              "type": "image",
+              "src": "/assets/medical_camp_5.jpg",
+              "caption": "हमारा चिकित्सा शिविर आवश्यक देखभाल प्रदान करता है।"
+            },
+            {
+              "type": "heading",
+              "content": "दरवाजे पर विशेषज्ञ देखभाल"
+            },
+            {
+              "type": "paragraph",
+              "content": "पूरे दिन के दौरान, सामान्य बीमारियों, दंत समस्याओं और पुरानी स्थितियों के लिए सैकड़ों रोगियों की जांच की गई। निःशुल्क दवाएं वितरित की गईं, और अनुवर्ती कार्रवाई के लिए गंभीर मामलों की पहचान की गई। यह शिविर समग्र ग्रामीण कल्याण के प्रति हमारी प्रतिबद्धता का प्रमाण था - क्योंकि एक स्वस्थ समुदाय ही एक संपन्न समुदाय है।"
+            }
+          ],
+          "images": [
+            "/assets/medical_camp_5.jpg",
+            "/assets/medical_camp_1.jpg",
+            "/assets/medical_camp_2.jpg",
+            "/assets/medical_camp_3.jpg",
+            "/assets/medical_camp_4.jpg"
+          ]
+        },
+        {
+          "id": "menstrual-hygiene-camp",
+          "title": "मासिक धर्म स्वच्छता जागरूकता शिविर",
+          "description": "ग्रामीण महिलाओं को मासिक धर्म स्वास्थ्य पर शिक्षित करना, पैड वितरित करना और रूढ़ियों को तोड़ना।",
+          "fullContent": "मासिक धर्म स्वच्छता शिक्षा और सशक्तिकरण के लिए समर्पित एक विशेष शिविर...",
+          "date": "2025-08-20",
+          "articleContent": [
+            {
+              "type": "heading",
+              "content": "रूढ़ियों को तोड़ना, स्वास्थ्य का निर्माण करना"
+            },
+            {
+              "type": "paragraph",
+              "content": "कई ग्रामीण समुदायों में, मासिक धर्म मौन और कलंक में लिपटा एक विषय बना हुआ है। महिलाओं के स्वास्थ्य के इस महत्वपूर्ण पहलू को संबोधित करने के लिए, वनप्रस्थ फाउंडेशन ने रत्खल गांव में एक मासिक धर्म स्वच्छता जागरूकता शिविर का आयोजन किया। लक्ष्य महिलाओं को अच्छे मासिक धर्म प्रथाओं के बारे में शिक्षित करना, सदियों पुराने मिथकों को तोड़ना और उन वर्जनाओं को तोड़ना था जो प्रजनन स्वास्थ्य के बारे में खुली बातचीत को रोकते हैं।"
+            },
+            {
+              "type": "image",
+              "src": "/assets/menstrual_hygiene_1.jpg",
+              "caption": "मासिक धर्म स्वच्छता जागरूकता सत्र के लिए इकट्ठा हुई महिलाएं।"
+            },
+            {
+              "type": "heading",
+              "content": "शिक्षा और सशक्तिकरण"
+            },
+            {
+              "type": "paragraph",
+              "content": "यह शिविर केवल स्वास्थ्य के बारे में नहीं था; यह नारीत्व का जश्न मनाने के बारे में था। यह आयोजन स्थानीय संस्कृति के उत्सव के साथ खूबसूरती से संपन्न हुआ, जिसमें पारंपरिक कुमाऊंनी नृत्य और संगीत शामिल था, जिससे महिलाओं ने सशक्त, सूचित और उन्नत महसूस किया।"
+            }
+          ],
+          "images": [
+            "/assets/menstrual_hygiene_1.jpg",
+            "/assets/menstrual_hygiene_2.jpg",
+            "/assets/menstrual_hygiene_3.png",
+            "/assets/menstrual_hygiene_4.jpg",
+            "/assets/menstrual_hygiene_5.jpg"
+          ]
+        }
+      ],
+      "upcoming": []
+    },
+    "contact": {
+      "address": "खेत - 267, 269 ,275, खाता नंबर 16, रत्खल, दूनागिरी, अल्मोड़ा, रानीखेत, उत्तराखंड-263653",
+      "email": "foundationvanprastha@gmail.com"
+    }
   }
 }

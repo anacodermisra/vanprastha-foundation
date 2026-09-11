@@ -1,6 +1,5 @@
 import emailjs from '@emailjs/browser';
 
-// Placeholders - User needs to replace these
 const SERVICE_ID = 'service_z702sqm';
 const TEMPLATE_ID = 'template_9znqvih';
 const PUBLIC_KEY = 'Pqrjh4WPpqsHx5GX8';

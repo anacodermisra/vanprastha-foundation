@@ -25,8 +25,8 @@ const Volunteer = () => {
             setStatus({ loading: false, success: true, error: null });
             setFormData({ name: '', email: '', phone: '', interest: 'plantation', message: '' });
             setTimeout(() => setStatus(prev => ({ ...prev, success: false })), 5000);
-        } catch {
-            setStatus({ loading: false, success: false, error: 'Failed to send message. Please try again.' });
+        } catch (error) {
+            setStatus({ loading: false, error: error?.text || error?.message || 'Failed to send message. Please try again.', success: false });
         }
     };
 
