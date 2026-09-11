@@ -11,6 +11,8 @@ const Navbar = () => {
         { name: 'Home', path: '/' },
         { name: 'About', path: '/#about' },
         { name: 'Initiatives', path: '/#initiatives' },
+        { name: 'Awards & Recognition', path: '/awards' },
+        { name: 'Media', path: '/media' },
         { name: 'Volunteer', path: '/volunteer' },
     ];
 
@@ -32,10 +34,15 @@ const Navbar = () => {
                                 {link.name}
                             </HashLink>
                         ))}
-                        <Link to="/contribute" className="bg-primary hover:bg-green-700 text-white px-4 py-2 rounded-full flex items-center transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
+                        <a
+                            href="https://pages.razorpay.com/vanprasthafoundation"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="bg-primary hover:bg-green-700 text-white px-4 py-2 rounded-full flex items-center transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+                        >
                             <Heart className="w-4 h-4 mr-2" />
                             Contribute
-                        </Link>
+                        </a>
                     </div>
 
                     {/* Mobile Menu Button */}
@@ -65,13 +72,15 @@ const Navbar = () => {
                                 {link.name}
                             </HashLink>
                         ))}
-                        <Link
-                            to="/contribute"
-                            className="block w-full text-left px-3 py-2 rounded-md text-base font-medium text-white bg-primary hover:bg-green-700"
+                        <a
+                            href="https://pages.razorpay.com/vanprasthafoundation"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="block w-full text-center px-3 py-2 rounded-md text-base font-medium text-white bg-primary hover:bg-green-700"
                             onClick={() => setIsOpen(false)}
                         >
                             Contribute
-                        </Link>
+                        </a>
                     </div>
                 </div>
             )}

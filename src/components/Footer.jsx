@@ -22,8 +22,12 @@ const Footer = () => {
                         <ul className="space-y-2 text-gray-400">
                             <li><HashLink smooth to="/#about" className="hover:text-accent transition-colors">About Us</HashLink></li>
                             <li><HashLink smooth to="/#initiatives" className="hover:text-accent transition-colors">Initiatives</HashLink></li>
+                            <li><Link to="/awards" className="hover:text-accent transition-colors">Awards & Recognition</Link></li>
+                            <li><Link to="/media" className="hover:text-accent transition-colors">Media Center</Link></li>
+                            <li><Link to="/governance" className="hover:text-accent transition-colors">Governance</Link></li>
+                            <li><Link to="/faq" className="hover:text-accent transition-colors">FAQ</Link></li>
                             <li><Link to="/volunteer" className="hover:text-accent transition-colors">Volunteer</Link></li>
-                            <li><Link to="/contribute" className="hover:text-accent transition-colors">Contribute</Link></li>
+                            <li><a href="https://pages.razorpay.com/vanprasthafoundation" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">Contribute Online</a></li>
                         </ul>
                     </div>
 
@@ -31,6 +35,7 @@ const Footer = () => {
                     <div>
                         <h4 className="text-lg font-bold mb-4">Legal</h4>
                         <ul className="space-y-2 text-gray-400">
+                            <li><Link to="/governance" className="hover:text-accent transition-colors">12A & 80G Compliance</Link></li>
                             <li><Link to="/privacy-policy" className="hover:text-accent transition-colors">Privacy Policy</Link></li>
                             <li><Link to="/terms-and-conditions" className="hover:text-accent transition-colors">Terms & Conditions</Link></li>
                             <li><Link to="/refund-policy" className="hover:text-accent transition-colors">Refund Policy</Link></li>
@@ -47,7 +52,12 @@ const Footer = () => {
                             </div>
                             <div className="flex items-center">
                                 <Mail className="w-5 h-5 mr-3 text-accent flex-shrink-0" />
-                                <a href="mailto:foundationvanprastha@gmail.com" className="hover:text-white transition-colors">
+                                <a 
+                                    href="https://mail.google.com/mail/?view=cm&fs=1&to=foundationvanprastha@gmail.com" 
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="hover:text-white transition-colors"
+                                >
                                     foundationvanprastha@gmail.com
                                 </a>
                             </div>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Send, Users, TreePine, HandHeart, Loader, CheckCircle, AlertCircle } from 'lucide-react';
+import { Send, Users, TreePine, HandHeart, Loader, CheckCircle, AlertCircle, BookOpen, Droplets } from 'lucide-react';
 import { sendVolunteerEmail } from '../services/emailService';
 
 const Volunteer = () => {
@@ -25,7 +25,7 @@ const Volunteer = () => {
             setStatus({ loading: false, success: true, error: null });
             setFormData({ name: '', email: '', phone: '', interest: 'plantation', message: '' });
             setTimeout(() => setStatus(prev => ({ ...prev, success: false })), 5000);
-        } catch (err) {
+        } catch {
             setStatus({ loading: false, success: false, error: 'Failed to send message. Please try again.' });
         }
     };
@@ -59,6 +59,30 @@ const Volunteer = () => {
                                 <h3 className="font-bold text-lg mb-2">Medical Camps</h3>
                                 <p className="text-sm text-gray-500">Assist doctors and organize health camps.</p>
                             </div>
+                            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center">
+                                <BookOpen className="w-10 h-10 text-blue-500 mx-auto mb-3" />
+                                <h3 className="font-bold text-lg mb-2">Education (Pathshala)</h3>
+                                <p className="text-sm text-gray-500">Teach and empower rural children.</p>
+                            </div>
+                            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center">
+                                <Droplets className="w-10 h-10 text-pink-500 mx-auto mb-3" />
+                                <h3 className="font-bold text-lg mb-2">Menstrual Hygiene</h3>
+                                <p className="text-sm text-gray-500">Break taboos and educate rural women.</p>
+                            </div>
+                        </div>
+
+                        <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center">
+                            <p className="text-gray-600 text-sm font-medium">
+                                Have questions or prefer to contact directly? Write to us at{' '}
+                                <a 
+                                    href="https://mail.google.com/mail/?view=cm&fs=1&to=foundationvanprastha@gmail.com" 
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-primary font-bold hover:underline"
+                                >
+                                    foundationvanprastha@gmail.com
+                                </a>
+                            </p>
                         </div>
                     </div>
 

@@ -1,14 +1,18 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/container-queries";
 
 @theme {
-  --color-primary: #2E7D32;
-  --color-secondary: #81C784;
+  --color-primary: #1E5128;
+  --color-secondary: #4E944F;
   --color-accent: #FFD54F;
-  --color-dark: #1B1B1B;
-  --color-light: #F5F5F5;
+  --color-dark: #191A19;
+  --color-light: #f8fcf9;
+  --color-background-light: #f8fcf9;
+  --color-background-dark: #191A19;
 
-  --font-sans: "Inter", sans-serif;
-  --font-serif: "Merriweather", serif;
+  --font-sans: "Manrope", sans-serif;
+  --font-serif: "Manrope", sans-serif;
+  --font-display: "Manrope", sans-serif;
 }
 
 @layer base {

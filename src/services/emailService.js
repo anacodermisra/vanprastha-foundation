@@ -6,11 +6,6 @@ const TEMPLATE_ID = 'template_9znqvih';
 const PUBLIC_KEY = 'Pqrjh4WPpqsHx5GX8';
 
 export const sendVolunteerEmail = async (formData) => {
-    if (SERVICE_ID === 'YOUR_SERVICE_ID') {
-        console.warn('EmailJS credentials missing. Simulating success.');
-        return new Promise(resolve => setTimeout(resolve, 1000));
-    }
-
     try {
         const templateParams = {
             to_name: 'Vanprastha Admin',

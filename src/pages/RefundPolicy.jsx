@@ -28,7 +28,7 @@ const RefundPolicy = () => {
                     <section>
                         <h2 className="text-2xl font-bold text-gray-900 mb-4">3. Refund Request</h2>
                         <p className="mb-4">
-                            If you believe that there has been an error with your donation, please contact us within 7 days of the transaction date at <a href="mailto:foundationvanprastha@gmail.com" className="text-accent hover:underline">foundationvanprastha@gmail.com</a>. We will review your request and process a refund if appropriate.
+                            If you believe that there has been an error with your donation, please contact us within 7 days of the transaction date at <a href="https://mail.google.com/mail/?view=cm&fs=1&to=foundationvanprastha@gmail.com" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">foundationvanprastha@gmail.com</a>. We will review your request and process a refund if appropriate.
                         </p>
                         <p className="mb-4">
                             Please include specific details such as date, donation amount, donor name, and the nature of the error in your correspondence.

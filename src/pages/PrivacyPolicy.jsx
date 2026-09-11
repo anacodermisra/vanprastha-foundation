@@ -61,7 +61,7 @@ const PrivacyPolicy = () => {
                             <strong>Vanprastha Foundation</strong><br />
                             Khet - 267, 269 ,275, Khata no. 16, Ratkhal, Dunagiri, Almora,<br />
                             Ranikhet, Uttarakhand-263653<br />
-                            Email: <a href="mailto:foundationvanprastha@gmail.com" className="text-accent hover:underline">foundationvanprastha@gmail.com</a>
+                            Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=foundationvanprastha@gmail.com" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">foundationvanprastha@gmail.com</a>
                         </address>
                     </section>
                 </div>
