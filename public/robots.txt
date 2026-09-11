@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vanprasthafoundation.netlify.app/sitemap.xml
+Sitemap: https://vanprasthafoundation.org/sitemap.xml
