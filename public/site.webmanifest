@@ -1,0 +1,21 @@
+{
+  "name": "Vanprastha Foundation",
+  "short_name": "Vanprastha",
+  "description": "Vanprastha Foundation is a non-profit organization dedicated to the holistic and sustainable development of rural regions.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2c6e49",
+  "icons": [
+    {
+      "src": "/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
