@@ -13,6 +13,7 @@ const Navbar = () => {
         { name: lang === 'en' ? 'Home' : 'होम', path: '/' },
         { name: lang === 'en' ? 'About' : 'हमारे बारे में', path: '/#about' },
         { name: lang === 'en' ? 'Initiatives' : 'पहल', path: '/#initiatives' },
+        { name: lang === 'en' ? 'Leadership' : 'नेतृत्व', path: '/leadership' },
         { name: lang === 'en' ? 'Awards & Recognition' : 'पुरस्कार और मान्यता', path: '/awards' },
         { name: lang === 'en' ? 'Media' : 'मीडिया', path: '/media' },
         { name: lang === 'en' ? 'Volunteer' : 'स्वयंसेवक', path: '/volunteer' },

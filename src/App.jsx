@@ -13,6 +13,7 @@ import Awards from './pages/Awards';
 import Media from './pages/Media';
 import Governance from './pages/Governance';
 import FAQ from './pages/FAQ';
+import Leadership from './pages/Leadership';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsAndConditions from './pages/TermsAndConditions';
 import RefundPolicy from './pages/RefundPolicy';
@@ -30,6 +31,10 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/contribute" element={<Contribute />} />
             <Route path="/volunteer" element={<Volunteer />} />
+            <Route path="/leadership" element={<Leadership />} />
+            <Route path="/team" element={<Leadership />} />
+            <Route path="/founder" element={<Leadership />} />
+            <Route path="/board" element={<Leadership />} />
             <Route path="/awards" element={<Awards />} />
             <Route path="/awards-and-recognition" element={<Awards />} />
             <Route path="/media" element={<Media />} />

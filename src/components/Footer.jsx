@@ -26,6 +26,7 @@ const Footer = () => {
                         <ul className="space-y-2 text-gray-400">
                             <li><HashLink smooth to="/#about" className="hover:text-accent transition-colors">{lang === 'en' ? 'About Us' : 'हमारे बारे में'}</HashLink></li>
                             <li><HashLink smooth to="/#initiatives" className="hover:text-accent transition-colors">{lang === 'en' ? 'Initiatives' : 'पहल'}</HashLink></li>
+                            <li><Link to="/leadership" className="hover:text-accent transition-colors">{lang === 'en' ? 'Leadership & Board' : 'नेतृत्व और निदेशक मंडल'}</Link></li>
                             <li><Link to="/awards" className="hover:text-accent transition-colors">{lang === 'en' ? 'Awards & Recognition' : 'पुरस्कार और मान्यता'}</Link></li>
                             <li><Link to="/media" className="hover:text-accent transition-colors">{lang === 'en' ? 'Media Center' : 'मीडिया सेंटर'}</Link></li>
                             <li><Link to="/governance" className="hover:text-accent transition-colors">{lang === 'en' ? 'Governance' : 'शासन'}</Link></li>
