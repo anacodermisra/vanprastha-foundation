@@ -72,7 +72,7 @@ const useScrollToHash = () => {
 
 const Home = () => {
     useScrollToHash();
-    const { content, loading } = useContent();
+    const { content, lang, loading } = useContent();
 
     if (loading) {
         return <div className="flex justify-center items-center min-h-screen"><div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-primary"></div></div>;
@@ -156,24 +156,29 @@ const Home = () => {
                                     className="flex flex-col gap-4"
                                 >
                                     <h1 className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black leading-tight tracking-tight">
-                                        Nurturing <span className="text-accent">Nature,</span> <br />
-                                        Empowering Communities
+                                        {lang === 'en' ? (
+                                            <>Nurturing <span className="text-accent">Nature,</span> <br /> Empowering Communities</>
+                                        ) : (
+                                            <>प्रकृति का <span className="text-accent">पोषण,</span> <br /> समुदायों का सशक्तिकरण</>
+                                        )}
                                     </h1>
                                     <p className="text-slate-200 text-sm sm:text-base md:text-lg font-normal leading-relaxed max-w-lg">
-                                        Dedicated to high-end environmental conservation and sustainable community development focused on the Uttarakhand hills.
+                                        {lang === 'en' 
+                                            ? 'Dedicated to high-end environmental conservation and sustainable community development focused on the Uttarakhand hills.' 
+                                            : 'उत्तराखंड की पहाड़ियों पर केंद्रित उच्च स्तरीय पर्यावरण संरक्षण और सतत सामुदायिक विकास के लिए समर्पित।'}
                                     </p>
                                     <div className="pt-2 flex flex-wrap gap-3 sm:gap-4">
                                         <Link
-                                            to="/contribute"
+                                            to="https://pages.razorpay.com/vanprasthafoundation"
                                             className="inline-flex items-center justify-center rounded-xl h-11 sm:h-12 px-6 bg-primary hover:bg-secondary text-white text-sm sm:text-base font-bold transition-all shadow-lg hover:shadow-primary/30"
                                         >
-                                            Join Our Mission
+                                            {lang === 'en' ? 'Join Our Mission' : 'हमारे मिशन से जुड़ें'}
                                         </Link>
                                         <Link
                                             to="/#about"
                                             className="inline-flex items-center justify-center rounded-xl h-11 sm:h-12 px-6 bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/25 text-sm sm:text-base font-semibold transition-all"
                                         >
-                                            See Our Impact
+                                            {lang === 'en' ? 'See Our Impact' : 'हमारा प्रभाव देखें'}
                                         </Link>
                                     </div>
                                 </motion.div>
@@ -198,13 +203,13 @@ const Home = () => {
                                         <span className="text-primary font-bold text-3xl block mb-1">
                                             <AnimatedCounter target={2000} suffix="+" />
                                         </span>
-                                        <span className="text-slate-500 text-sm font-bold uppercase tracking-wider">Trees Sown</span>
+                                        <span className="text-slate-500 text-sm font-bold uppercase tracking-wider">{lang === 'en' ? 'Trees Sown' : 'पेड़ लगाए गए'}</span>
                                     </div>
                                     <div className="bg-white px-6 py-4 rounded-2xl shadow-sm border border-slate-100 min-w-[170px]">
                                         <span className="text-secondary font-bold text-3xl block mb-1">
                                             <AnimatedCounter target={1000} suffix="+" />
                                         </span>
-                                        <span className="text-slate-500 text-sm font-bold uppercase tracking-wider">Lives Impacted</span>
+                                        <span className="text-slate-500 text-sm font-bold uppercase tracking-wider">{lang === 'en' ? 'Lives Impacted' : 'प्रभावित जीवन'}</span>
                                     </div>
                                 </div>
                             </AnimatedSection>
@@ -233,8 +238,8 @@ const Home = () => {
             <section id="initiatives" className="py-24 px-4 @container max-w-7xl mx-auto w-full">
                 <AnimatedSection className="flex items-end justify-between mb-12">
                     <div>
-                        <h2 className="text-slate-900 text-3xl md:text-5xl font-extrabold leading-tight tracking-tight">Our Initiatives</h2>
-                        <p className="text-slate-500 text-lg mt-2 font-medium italic underline decoration-primary decoration-4 underline-offset-8">Making a difference where it matters most</p>
+                        <h2 className="text-slate-900 text-3xl md:text-5xl font-extrabold leading-tight tracking-tight">{lang === 'en' ? 'Our Initiatives' : 'हमारी पहल'}</h2>
+                        <p className="text-slate-500 text-lg mt-2 font-medium italic underline decoration-primary decoration-4 underline-offset-8">{lang === 'en' ? 'Making a difference where it matters most' : 'जहां सबसे ज्यादा मायने रखता है वहां बदलाव लाना'}</p>
                     </div>
                 </AnimatedSection>
 
@@ -253,7 +258,7 @@ const Home = () => {
                                     <h3 className="text-slate-900 text-2xl font-bold leading-tight mb-4 group-hover:text-primary transition-colors">{item.title}</h3>
                                     <p className="text-slate-500 text-base leading-relaxed mb-6 line-clamp-3 font-medium">{item.description}</p>
                                     <div className="text-primary font-bold text-sm flex items-center gap-1 group-hover:gap-3 transition-all uppercase tracking-widest">
-                                        Full Story <ArrowRight className="w-5 h-5" />
+                                        {lang === 'en' ? 'Full Story' : 'पूरी कहानी'} <ArrowRight className="w-5 h-5" />
                                     </div>
                                 </div>
                             </Link>
@@ -272,8 +277,8 @@ const Home = () => {
 
                     <div className="relative z-10 flex flex-col md:flex-row items-center md:justify-between gap-8">
                         <div className="text-center md:text-left md:max-w-xl">
-                            <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight leading-tight mb-4">Support Our Mission</h2>
-                            <p className="text-slate-300 text-lg leading-relaxed">Every donation directly funds our conservation projects and helps protect our planet's future.</p>
+                            <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight leading-tight mb-4">{lang === 'en' ? 'Support Our Mission' : 'हमारे मिशन का समर्थन करें'}</h2>
+                            <p className="text-slate-300 text-lg leading-relaxed">{lang === 'en' ? "Every donation directly funds our conservation projects and helps protect our planet's future." : 'हर दान सीधे हमारी संरक्षण परियोजनाओं को निधि देता है और हमारे ग्रह के भविष्य की रक्षा करने में मदद करता है।'}</p>
                         </div>
                         <div className="flex flex-col sm:flex-row w-full md:w-auto gap-4 shrink-0">
                             <a
@@ -282,10 +287,10 @@ const Home = () => {
                                 rel="noopener noreferrer"
                                 className="flex items-center justify-center min-w-[180px] h-14 bg-primary text-slate-900 text-lg font-bold rounded-xl hover:brightness-110 transition-all shadow-lg hover:shadow-primary/30 hover:-translate-y-1"
                             >
-                                Donate Now
+                                {lang === 'en' ? 'Donate Now' : 'अभी दान करें'}
                             </a>
                             <Link to="/#about" className="flex items-center justify-center min-w-[180px] h-14 bg-white/10 text-white text-lg font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all hover:-translate-y-1">
-                                Learn More
+                                {lang === 'en' ? 'Learn More' : 'और जानें'}
                             </Link>
                         </div>
                     </div>
