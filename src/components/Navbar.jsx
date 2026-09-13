@@ -23,9 +23,11 @@ const Navbar = () => {
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between h-16">
                     <div className="flex items-center">
-                        <Link to="/" className="flex-shrink-0 flex items-center gap-3">
-                            <img src={logo} alt="Vanprastha Logo" className="h-12 w-auto" />
-                            <span className="text-xl md:text-2xl font-serif font-bold text-primary hidden sm:block">Vanprastha Foundation</span>
+                        <Link to="/" className="flex-shrink-0 flex items-center gap-2 sm:gap-3">
+                            <img src={logo} alt="Vanprastha Logo" className="h-10 sm:h-12 w-auto" />
+                            <span className="text-base sm:text-xl md:text-2xl font-serif font-bold text-primary tracking-tight">
+                                {lang === 'en' ? 'Vanprastha Foundation' : 'वनप्रस्थ फाउंडेशन'}
+                            </span>
                         </Link>
                     </div>
 
