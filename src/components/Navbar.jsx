@@ -14,39 +14,44 @@ const Navbar = () => {
         { name: lang === 'en' ? 'About' : 'हमारे बारे में', path: '/#about' },
         { name: lang === 'en' ? 'Initiatives' : 'पहल', path: '/#initiatives' },
         { name: lang === 'en' ? 'Leadership' : 'नेतृत्व', path: '/leadership' },
-        { name: lang === 'en' ? 'Awards & Recognition' : 'पुरस्कार और मान्यता', path: '/awards' },
+        { name: lang === 'en' ? 'Recognition' : 'मान्यता', path: '/awards' },
         { name: lang === 'en' ? 'Media' : 'मीडिया', path: '/media' },
         { name: lang === 'en' ? 'Volunteer' : 'स्वयंसेवक', path: '/volunteer' },
     ];
 
     return (
         <nav className="bg-white shadow-md sticky top-0 z-50">
-            <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex justify-between h-16">
-                    <div className="flex items-center">
-                        <Link to="/" className="flex-shrink-0 flex items-center gap-2 sm:gap-3">
-                            <img src={logo} alt="Vanprastha Logo" className="h-10 sm:h-12 w-auto" />
-                            <span className="text-base sm:text-xl md:text-2xl font-serif font-bold text-primary tracking-tight">
+            <div className="container mx-auto px-3 sm:px-6 lg:px-8 max-w-7xl">
+                <div className="flex items-center justify-between h-16 gap-2 lg:gap-4">
+                    <div className="flex items-center shrink-0">
+                        <Link to="/" className="flex items-center gap-2 sm:gap-3 shrink-0">
+                            <img src={logo} alt="Vanprastha Logo" className="h-9 sm:h-11 w-auto shrink-0" />
+                            <span className="text-sm sm:text-lg xl:text-xl font-serif font-bold text-primary tracking-tight whitespace-nowrap">
                                 {lang === 'en' ? 'Vanprastha Foundation' : 'वनप्रस्थ फाउंडेशन'}
                             </span>
                         </Link>
                     </div>
 
                     {/* Desktop Menu */}
-                    <div className="hidden lg:flex items-center space-x-6">
+                    <div className="hidden lg:flex items-center gap-3 xl:gap-5 2xl:gap-6 shrink-0">
                         {navLinks.map((link) => (
-                            <HashLink smooth key={link.name} to={link.path} className="text-gray-700 hover:text-primary transition-colors duration-200 font-medium">
+                            <HashLink
+                                smooth
+                                key={link.name}
+                                to={link.path}
+                                className="text-gray-700 hover:text-primary transition-colors duration-200 font-medium text-xs xl:text-sm 2xl:text-base whitespace-nowrap"
+                            >
                                 {link.name}
                             </HashLink>
                         ))}
                         
                         {/* Language Toggle Button */}
                         <button
-                            className="flex items-center px-3 py-1 rounded-full border border-gray-200 hover:border-primary text-sm font-medium transition-colors"
+                            className="flex items-center px-2.5 py-1 rounded-full border border-gray-200 hover:border-primary text-xs xl:text-sm font-medium transition-colors shrink-0 whitespace-nowrap"
                             onClick={() => setLang((prev) => (prev === 'en' ? 'hi' : 'en'))}
                             aria-label="Change Language"
                         >
-                            <Globe className="w-4 h-4 mr-2 text-gray-500" />
+                            <Globe className="w-3.5 h-3.5 mr-1.5 text-gray-500" />
                             <span className={lang === 'en' ? 'text-primary font-bold' : 'text-gray-500'}>EN</span>
                             <span className="mx-1 text-gray-300">|</span>
                             <span className={lang === 'hi' ? 'text-primary font-bold' : 'text-gray-500'}>हिं</span>
@@ -56,9 +61,9 @@ const Navbar = () => {
                             href="https://pages.razorpay.com/vanprasthafoundation"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="bg-primary hover:bg-green-700 text-white px-4 py-2 rounded-full flex items-center transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+                            className="bg-primary hover:bg-green-700 text-white px-3.5 py-1.5 xl:px-4 xl:py-2 rounded-full flex items-center transition-all duration-200 shadow-md hover:shadow-lg transform hover:-translate-y-0.5 text-xs xl:text-sm font-semibold shrink-0 whitespace-nowrap"
                         >
-                            <Heart className="w-4 h-4 mr-2" />
+                            <Heart className="w-3.5 h-3.5 mr-1.5" />
                             {lang === 'en' ? 'Contribute' : 'योगदान करें'}
                         </a>
                     </div>
